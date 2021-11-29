@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Recruitment_JPC_EC_DG.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Recruitment_JPC_EC_DG.dir/objects.a @CMakeFiles\Recruitment_JPC_EC_DG.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Recruitment_JPC_EC_DG.dir/objects.a -Wl,--no-whole-archive -o Recruitment_JPC_EC_DG.exe -Wl,--out-implib,libRecruitment_JPC_EC_DG.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Recruitment_JPC_EC_DG.dir\linklibs.rsp
